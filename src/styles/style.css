@@ -1,0 +1,63 @@
+.new {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column-0{
+    touch-action: none;
+    position: relative;
+    width: 20px;
+    height: 60px;
+    cursor: inherit;
+    background-color: red;
+    display: flex;
+    margin-bottom: 50%;
+    margin-top: 30%;
+}
+
+.column-1{
+    touch-action: none;
+    position: relative;
+    width: 20px;
+    height: 60px;
+    cursor: inherit;
+    background-color: green;
+    display: flex;
+    margin-bottom: 50%;
+    margin-top: 30%;
+}
+
+.nut{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    position: relative;
+}
+.nut:active{
+    border: 2px solid slateblue;
+}
+
+/*.color-0{*/
+/*    position: absolute;*/
+/*    background-color: orange;*/
+/*    width: 50px;*/
+/*    height: 20px;*/
+/*}*/
+
+.color-1{
+    position: absolute;
+    background-color: blue;
+    width: 50px;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.color-2{
+    position: absolute;
+    background-color: black;
+    width: 50px;
+    height: 20px;
+    margin-top: 40px;
+}
+
